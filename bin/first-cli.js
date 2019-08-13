@@ -12,7 +12,7 @@ program
     .action((name, cmd) => {
         // name是创建的项目名称
         const options = cleanArgs(cmd)
-        
+
         require('../lib/create')(name, options)    
     })
 
